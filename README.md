@@ -4,7 +4,7 @@
 
 J'ai développé une application multi-plateforme en React Native permettant de gérer diverses listes de tâches. 
 J'ai opté pour Neo4j comme base de données, couplée à GraphQL pour découvrir et apprendre à utliser de nouveaux outils.
-Apollo Server a été utilisé pour le déploiement de l'API, et Expo pour simplifier le lancement l'application.
+Apollo Server a été utilisé pour le déploiement de l'API, et Expo pour simplifier le lancement de l'application.
 
 ## Prérequis
 
@@ -12,7 +12,6 @@ Apollo Server a été utilisé pour le déploiement de l'API, et Expo pour simpl
     + Normalement l'installation de `npm` et `npx` est comprise dans celle de Node.js
 
 + Installation de [Neo4j](https://neo4j.com/docs/operations-manual/current/installation/)
-    + Neo4j fonctionne avec [JDK 21](https://www.oracle.com/fr/java/technologies/downloads/#java21)
     + Installation du plugin [APOC](https://neo4j.com/docs/apoc/current/installation/)
 
 ## Comment lancer l'application
