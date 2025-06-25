@@ -34,7 +34,7 @@ Apollo Server a été utilisé pour le déploiement de l'API, et Expo pour simpl
 
 + Installation des dépendances nécessaires au projet avec la commande `npm install`
 
-+ La commande `npm start` permet de lancer l'application Todo-List.
++ La commande `npm start` permet de lancer l'application Todo-List
 
 ## Contribuer
 
