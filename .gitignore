@@ -1,0 +1,19 @@
+# dependencies
+src/MyApp/node_modules/
+src/graphql-app/node_modules/
+
+# Expo
+src/MyApp/.expo/
+src/MyApp/dist/
+src/MyApp/web-build/
+src/MyApp/expo-env.d.ts
+
+# debug
+src/MyApp/npm-debug.*
+src/MyApp/yarn-debug.*
+src/MyApp/yarn-error.*
+
+# local env files
+src/MyApp/.env*.local
+# dependencies
+src/MyApp/node_modules/
