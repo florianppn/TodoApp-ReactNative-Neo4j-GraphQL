@@ -1,0 +1,26 @@
+{
+  "name": "graphql-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@apollo/server": "^4.12.2",
+    "@neo4j/graphql": "^7.2.0",
+    "bcrypt": "^6.0.0",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "graphql": "^16.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "neo4j-driver": "^5.28.1",
+    "pg": "^8.16.0",
+    "uuid": "^11.1.0"
+  }
+}

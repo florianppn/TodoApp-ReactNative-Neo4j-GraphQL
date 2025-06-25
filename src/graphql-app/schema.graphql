@@ -1,0 +1,36 @@
+type User @authentication @node @authorization(validate: [
+    { where: { jwt: { roles: { includes: "admin" } } } }
+    { where: { node: { id: { eq: "$jwt.sub" } } } }
+]) {
+  id: ID! @id
+  username: String!
+  password: String!
+  roles: [String!]
+}
+
+type TodoList @authentication @node @authorization(validate: [
+    { where: { node: { owners: { some: { id: { eq: "$jwt.sub" } } } } } }
+]) {
+  id: ID! @id
+  title: String
+  owners: [User!]! @relationship(type: "OWNED_BY", direction: OUT)
+}
+
+type Todo @authentication @node @authorization(validate: [
+    { where: { node: { belongsTo: { some: { owners: { some: { id: { eq: "$jwt.sub" } } } } } } } }
+]) {
+  id: ID! @id
+  content: String
+  belongsTo: [TodoList!]! @relationship(type: "BELONGS_TO", direction: OUT)
+  done: Boolean! @default(value: false)
+}
+
+type JWT @jwt {
+  sub: ID!
+  roles: [String!]!
+}
+
+type Mutation {
+  signUp(username: String!, password: String!): String!
+  signIn(username: String!, password: String!): String!
+}
