@@ -8,12 +8,12 @@ Apollo Server a été utilisé pour le déploiement de l'API, et Expo pour simpl
 
 ## Prérequis
 
-+ Installation de [Node.js]("https://nodejs.org/en/download")
++ Installation de [Node.js](https://nodejs.org/en/download)
     + Normalement l'installation de `npm` et `npx` est comprise dans celle de Node.js
 
-+ Installation de [Neo4j]("https://neo4j.com/docs/operations-manual/current/installation/")
-    + Neo4j fonctionne avec [JDK 21]("https://www.oracle.com/fr/java/technologies/downloads/#java21")
-    + Installation du plugin [APOC]("https://neo4j.com/docs/apoc/current/installation/")
++ Installation de [Neo4j](https://neo4j.com/docs/operations-manual/current/installation/)
+    + Neo4j fonctionne avec [JDK 21](https://www.oracle.com/fr/java/technologies/downloads/#java21)
+    + Installation du plugin [APOC](https://neo4j.com/docs/apoc/current/installation/)
 
 ## Comment lancer l'application
 
@@ -45,7 +45,7 @@ Apollo Server a été utilisé pour le déploiement de l'API, et Expo pour simpl
 
 ## Licence
 
-Ce projet est sous licence [MIT]("./LICENSE.md").
+Ce projet est sous licence [MIT](./LICENSE.md).
 
 ## Captures d'écran
 
