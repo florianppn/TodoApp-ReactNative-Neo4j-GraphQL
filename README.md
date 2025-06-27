@@ -48,7 +48,7 @@ Ce projet est sous licence [MIT](./LICENSE.md).
 
 ## Captures d'écran
 
-![home](./screenshots/TodoApp-ReactNative-Neo4j-GraphQL.png)
+![home](./screenshots/home.png)
 
 ![signIn](./screenshots/signIn.png)
 
