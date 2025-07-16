@@ -2,9 +2,8 @@
 
 ## Description
 
-J'ai développé une application multi-plateforme en React Native permettant de gérer diverses listes de tâches. 
-J'ai opté pour Neo4j comme base de données, couplée à GraphQL pour découvrir et apprendre à utliser de nouveaux outils.
-Apollo Server a été utilisé pour le déploiement de l'API, et Expo pour simplifier le lancement de l'application.
+Développement d'une application multi-plateforme en React Native permettant de gérer diverses listes de tâches. 
+Utilisation de Neo4j pour la base de données couplée à GraphQL. Apollo Server a été utilisé pour le déploiement de l'API, et Expo pour un lancement simple et rapide de l'application.
 
 ## Prérequis
 
