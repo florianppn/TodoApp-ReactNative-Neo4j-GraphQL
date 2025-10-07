@@ -17,7 +17,7 @@ Utilisation de Neo4j pour la base de données couplée à GraphQL. Apollo Server
 
 ### Démarrer l'API GraphQL
 
-+ Se rendre dans le dossier `./src/graphql-app/`
++ Se rendre dans le dossier `./src/MyApp/`
 
 + Mettez à jour le fichier `.env`
 
