@@ -6,7 +6,7 @@ Développement d'une application mobile (IOS/Android) en React Native permettant
 Utilisation de Neo4j pour la base de données couplée à GraphQL. Apollo Server a été utilisé pour le déploiement de l'API, et Expo pour le lancement de l'application.
 
 ## Prérequis
-
+ 
 + Installation de [Node.js](https://nodejs.org/en/download)
     + Normalement l'installation de `npm` et `npx` est comprise dans celle de Node.js
 
